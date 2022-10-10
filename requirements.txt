@@ -1,0 +1,5 @@
+torch==1.6.0
+numpy
+pillow
+scikit-learn==0.20.3
+opencv-python
