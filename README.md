@@ -6,7 +6,9 @@ MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple un
 
 [[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/) [[Challenge]](https://codalab.lisn.upsaclay.fr/competitions/8007)
 
-For downloading the dataset, please go for the website shown above.
+If you need MUAD Dataset, please Click and Fill in this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfTyCCPoO-MrVWKrp5hqyy4Bp9wZKh2Ww7_0MRnk-uu4Wf1yA/viewform?usp=sf_link).
+
+We provide you with permanent download links as soon as you finish submitting the form.
 
 ## Semantic segmentation
 
@@ -47,7 +49,7 @@ The indexes of the classes of semantic segmentation are the following (in leftLa
 ## Monocular depth estimation
 
 ### Evaluation metrics
-See folder `./evaluation_depth/`. We provide two scripts, `./evaluation_depth/depth_metrics.py` is for depth prediction performance, and `./evaluation_depth/sparsification.py` is for sparsification curves and its corresponding uncertainty estimation performance metrics, more details on this mretric can be found in [this](https://openaccess.thecvf.com/content_CVPR_2020/html/Poggi_On_the_Uncertainty_of_Self-Supervised_Monocular_Depth_Estimation_CVPR_2020_paper.html) CVPR 2020 paper by Poggi et al..
+See folder `./evaluation_depth/`. We provide two scripts, `./evaluation_depth/depth_metrics.py` is for depth prediction performance, and `./evaluation_depth/sparsification.py` is for sparsification curves and its corresponding uncertainty estimation performance metrics, more details on this metric can be found in [this paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Poggi_On_the_Uncertainty_of_Self-Supervised_Monocular_Depth_Estimation_CVPR_2020_paper.html) and the [git repo](https://github.com/mattpoggi/mono-uncertainty).
 
 ### More information
 The depth groundtruth data is in the form of `.exr` files. The depth in the image is annotated as min/max depth value. To load and transfer the depth in the image to the depth in meters, you can try the following codes:
@@ -75,3 +77,6 @@ If you find this work useful for your research, please consider citing our paper
   year={2022}
 }
 ```
+
+## Copyright
+Copyright for MUAD Dataset is owned by Université Paris-Saclay (SATIE Laboratory, Gif-sur-Yvette, FR) and ENSTA Paris (U2IS Laboratory, Palaiseau, FR).
