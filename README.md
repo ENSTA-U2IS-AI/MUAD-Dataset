@@ -4,7 +4,7 @@ This repository contains some development kits (in PyTorch) that we used for our
 
 MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple uncertainty types and tasks.
 
-[[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/) [[Challenge]](https://codalab.lisn.upsaclay.fr/competitions/8007)
+[[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/) [[Challenge]](https://codalab.lisn.upsaclay.fr/competitions/8007) (will open in november)
 
 If you need MUAD Dataset, please Click and Fill in this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfTyCCPoO-MrVWKrp5hqyy4Bp9wZKh2Ww7_0MRnk-uu4Wf1yA/viewform?usp=sf_link).
 
