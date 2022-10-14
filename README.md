@@ -4,7 +4,11 @@ This repository contains some development kits (in PyTorch) that we used for our
 
 MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple uncertainty types and tasks.
 
-[[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/) [[Challenge]](https://codalab.lisn.upsaclay.fr/competitions/8007) (will open in november)
+[[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/) 
+
+We also host a challenge on the Codalab platform for uncertainty estimation in semantic segmentation. The practice phase is now open, go and have a try! 🚀 🚀 🚀 [[Challenge link]](https://codalab.lisn.upsaclay.fr/competitions/8007)
+
+## How to download the MUAD dataset?
 
 If you need MUAD Dataset, please Click and Fill in this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfTyCCPoO-MrVWKrp5hqyy4Bp9wZKh2Ww7_0MRnk-uu4Wf1yA/viewform?usp=sf_link).
 
@@ -13,7 +17,7 @@ We provide you with permanent download links as soon as you finish submitting th
 ## Semantic segmentation
 
 ### Evaluation metrics
-See folder `./evaluation_seg/`. This scoring program is also used in our [MUAD Challenge](https://codalab.lisn.upsaclay.fr/competitions/8007). Check `./evaluation_seg/evaluation.py` for details.
+See folder `./evaluation_seg/`. This scoring program is also used in our [Challenge](https://codalab.lisn.upsaclay.fr/competitions/8007). Check `./evaluation_seg/evaluation.py` for details.
 
 We provide the implementations on `mECE`, `mAUROC`, `mAUPR`, `mFPR`, `mIoU`, `mAccuracy`, etc., see `./evaluation_seg/stream_metrics.py` for details.
 
