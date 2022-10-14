@@ -68,7 +68,7 @@ depth = np.asarray(depth, dtype=np.float32)
 depth = 400 * (1 - depth) # the depth in meters
 ```
 
-## Object tracking
+## Object/Instance detection
 TODO
 
 ## Citation
