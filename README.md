@@ -14,6 +14,9 @@ If you need MUAD Dataset, please Click and Fill in this [Google form](https://do
 
 We provide you with permanent download links as soon as you finish submitting the form.
 
+**[Note]** <u>We will release all the test sets (with the RGB images and the ground truth maps) after the MUAD challenge on the Codalab. Currently, only a small part is released with only the RGB images.</u>
+
+
 ## Semantic segmentation
 
 ### Evaluation metrics
