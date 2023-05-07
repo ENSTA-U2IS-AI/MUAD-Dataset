@@ -27,6 +27,20 @@ We provide the implementations on `mECE`, `mAUROC`, `mAUPR`, `mFPR`, `mIoU`, `mA
 
 You have to make some modifications in the codes according to your own needs. For instance, we by default set our output confidence map as type `.pth`, and set only `mIOU` for semantic segmentation performance, etc.
 
+### Prediction format
+The predictions we generate for semantic segmentation task follow the following format.
+
+For each image_id in the test set, we predict a __confidence score__ and a __predicted class label__ for each pixel. The prediction results are saved as __dictionary objects__ in __`.pth`__ form. Here is an example to show the components in a .pth prediction result:
+
+```python
+import torch
+prediction = torch.load('000000_leftImg8bit.pth')
+print(prediction.keys()) # should output: dict_keys(['conf', 'pred'])
+print(prediction['conf']) # should output: torch.Size([1024, 2048])
+print(prediction['pred']) # should output: torch.Size([1024, 2048])
+```
+The confidence score should be __torch.float16__ and the predicted class labels should be __torch.int64__.
+
 ### More information
 The indexes of the classes of semantic segmentation are the following (in leftLabel):
 
