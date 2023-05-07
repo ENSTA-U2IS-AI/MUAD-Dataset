@@ -188,4 +188,5 @@ def eval_ood_measure(conf, seg_label, name, mask=None):
     else:
         print("This image does not contain any OOD pixels or is only OOD.")
         print(name)
-        return None
+        # return None
+        return 1, 1, 1 # just to avoid the raised errors later on. It won't change the comparison.

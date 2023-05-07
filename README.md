@@ -1,12 +1,13 @@
 # MUAD: Multiple Uncertainties for Autonomous Driving Dataset
 
-This repository contains some development kits (in PyTorch) that we used for our BMVC 2022 paper: 
+This repository contains some development kits including the scripts for the evaluation (in PyTorch) that we used for our BMVC 2022 paper: 
 
 MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple uncertainty types and tasks.
 
 [[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/) 
 
-We also host a challenge on the Codalab platform for uncertainty estimation in semantic segmentation. The practice phase is now open, go and have a try! 🚀 🚀 🚀 [[Challenge link]](https://codalab.lisn.upsaclay.fr/competitions/8007)
+## ICCV UNCV 2023 | MUAD challenge
+MUAD challenge is now on board on the Codalab platform for uncertainty estimation in semantic segmentation. This challenge is hosted in conjunction with the [ICCV 2023](https://iccv2023.thecvf.com/) workshop, [Uncertainty Quantification for Computer Vision (UNCV)](https://uncv2023.github.io/). Go and have a try! 🚀 🚀 🚀 [[Challenge link]](https://codalab.lisn.upsaclay.fr/competitions/8007)
 
 ## How to download the MUAD dataset?
 
@@ -77,11 +78,18 @@ TODO
 ## Citation
 If you find this work useful for your research, please consider citing our paper:
 ```
-@article{franchi2022muad,
-  title={MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple uncertainty types and tasks},
-  author={Franchi, Gianni and Yu, Xuanlong and Bursuc, Andrei and Tena, Angel and Kazmierczak, R{\'e}mi and Dubuisson, S{\'e}verine and Aldea, Emanuel and Filliat, David},
-  journal={arXiv preprint arXiv:2203.01437},
-  year={2022}
+@inproceedings{franchi22bmvc,
+  author    = {Gianni Franchi and 
+              Xuanlong Yu and 
+              Andrei Bursuc and 
+              Angel Tena and 
+              Rémi Kazmierczak and 
+              Severine Dubuisson and 
+              Emanuel Aldea and 
+              David Filliat},
+  title     = {MUAD: Multiple Uncertainties for Autonomous Driving benchmark for multiple uncertainty types and tasks},
+  booktitle = {33rd British Machine Vision Conference, {BMVC} 2022},
+  year      = {2022}
 }
 ```
 
