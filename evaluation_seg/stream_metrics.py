@@ -188,5 +188,8 @@ def eval_ood_measure(conf, seg_label, name, mask=None):
     else:
         print("This image does not contain any OOD pixels or is only OOD.")
         print(name)
+
+        # Note: in the original paper, we used 'return None'. Yet, to avoid the potential errors in the MUAD challenge, 
+        # we changed it to 'return 1, 1, 1'. It won't affect the comparison in the challenge.
         # return None
-        return 1, 1, 1 # just to avoid the raised errors later on. It won't change the comparison.
+        return 1, 1, 1 
