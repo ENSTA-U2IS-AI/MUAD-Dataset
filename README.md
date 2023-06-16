@@ -20,6 +20,12 @@ We provide you with permanent download links as soon as you finish submitting th
 
 ## Semantic segmentation
 
+
+### Training and Evaluation on MUAD [__new__]
+We provide here a training and evaluation example, as well as a checkpoint based on DeepLab v3 plus. 
+Github link: [[DeepLabv3Plus-MUAD-Pytorch]](https://github.com/ENSTA-U2IS/DeepLabV3Plus-MUAD-Pytorch).
+
+
 ### Evaluation metrics
 See folder `./evaluation_seg/`. This scoring program is also used in our [Challenge](https://codalab.lisn.upsaclay.fr/competitions/8007). Check `./evaluation_seg/evaluation.py` for details.
 

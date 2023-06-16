@@ -236,7 +236,7 @@ class dataset(data.Dataset):
         target = np.zeros((segm.shape[0], segm.shape[1])) + 255
 
         for c in self.classes:
-            upper = np.array(c.object_id)
+            upper = np.array(c.train_id)
             lower = upper
             mask = cv.inRange(segm, lower, upper)
             target[mask == 255] = c.train_id
