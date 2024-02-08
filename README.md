@@ -20,7 +20,7 @@ We provide you with permanent download links as soon as you finish submitting th
 
 ## Semantic segmentation
 
-### Download and use MUAD on an headless server with TorchUncertainty
+### Download and use MUAD on a headless server with TorchUncertainty
 
 You will find a torchvision dataset for the training and validation set at [[TorchUncertainty]](https://github.com/ENSTA-U2IS-AI/torch-uncertainty).
 
