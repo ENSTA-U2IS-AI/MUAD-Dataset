@@ -20,8 +20,11 @@ We provide you with permanent download links as soon as you finish submitting th
 
 ## Semantic segmentation
 
+### Download and use MUAD on an headless server with TorchUncertainty
 
-### Training and Evaluation on MUAD [__new__]
+You will find a torchvision dataset for the training and validation set at [[TorchUncertainty]](https://github.com/ENSTA-U2IS-AI/torch-uncertainty).
+
+### Training and Evaluation on MUAD
 We provide here a training and evaluation example, as well as a checkpoint based on DeepLab v3 plus. 
 Github link: [[DeepLabv3Plus-MUAD-Pytorch]](https://github.com/ENSTA-U2IS/DeepLabV3Plus-MUAD-Pytorch).
 
