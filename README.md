@@ -6,6 +6,10 @@ MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple un
 
 [[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/) 
 
+## Download and use MUAD on a headless server with TorchUncertainty
+
+You will find a **PyTorch dataset** for MUAD's training and validation sets in **semantic segmentation** and **depth prediction** with **automated download** in [**TorchUncertainty**](https://github.com/ENSTA-U2IS-AI/torch-uncertainty).
+
 ## ICCV UNCV 2023 | MUAD challenge
 MUAD challenge is now on board on the Codalab platform for uncertainty estimation in semantic segmentation. This challenge is hosted in conjunction with the [ICCV 2023](https://iccv2023.thecvf.com/) workshop, [Uncertainty Quantification for Computer Vision (UNCV)](https://uncv2023.github.io/). Go and have a try! 🚀 🚀 🚀 [[Challenge link]](https://codalab.lisn.upsaclay.fr/competitions/8007)
 
@@ -19,10 +23,6 @@ We provide you with permanent download links as soon as you finish submitting th
 
 
 ## Semantic segmentation
-
-### Download and use MUAD on a headless server with TorchUncertainty
-
-You will find a torchvision dataset for the training and validation set at [[TorchUncertainty]](https://github.com/ENSTA-U2IS-AI/torch-uncertainty).
 
 ### Training and Evaluation on MUAD
 We provide here a training and evaluation example, as well as a checkpoint based on DeepLab v3 plus. 
