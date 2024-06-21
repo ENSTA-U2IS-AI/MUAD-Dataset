@@ -4,7 +4,7 @@ This repository contains some development kits including the scripts for the eva
 
 MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple uncertainty types and tasks.
 
-[[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/) 
+[[Paper]](https://arxiv.org/abs/2203.01437) [[Website]](https://muad-dataset.github.io/)  [[Data]](https://github.com/ENSTA-U2IS-AI/torch-uncertainty)
 
 ## Download and use MUAD on a headless server with TorchUncertainty
 
